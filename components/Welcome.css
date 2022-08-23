@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+* {
+  font-family: "Open Sans", sans-serif;
+}
+
+.welcome {
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(2, 48, 71);
+  position: relative;
+}
+
+.welcome h1 {
+  font-weight: medium;
+  font-size: 30px;
+  color: #fb8500;
+  text-align: center;
+}
+
+.label {
+  align-self: flex-start;
+}
+
+.login-register-container {
+  margin: auto;
+  margin-top: 5rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
+  align-items: center;
+  width: 400px;
+  height: 330px;
+
+  background-color: #8ecae6;
+}
+
+.login-register-container > input {
+  height: 30px;
+  border: 1px solid #fb8500;
+  outline: none;
+  margin-bottom: 5px;
+  font-size: 15px;
+  padding: 5px;
+}
+
+.signin-acc {
+  height: 30px;
+  margin-bottom: 2px;
+  padding: 5px 20px;
+
+  background-color: #ffb703;
+  border: 2px solid #219ebc;
+  margin-top: 6px;
+  font-size: 15px;
+}
+
+.create-acc {
+  border: none;
+  background-color: #8ecae6;
+  cursor: pointer;
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+.create-acc:hover {
+  font-size: 16px;
+  color: #219ebc;
+  text-decoration: underline;
+}
